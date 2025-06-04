@@ -78,3 +78,7 @@
     @apply font-heading;
   }
 }
+
+@utility container {
+  @apply max-w-7xl mx-auto px-4 2xl:px-0;
+}
