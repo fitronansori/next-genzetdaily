@@ -17,7 +17,7 @@ const AboutFeatureCard = ({
 }: AboutFeatureCardProps) => {
   return (
     <Card
-      className={`bg-${feature_color} border-2 border-border shadow-shadow ${card_rotation} hover:shadow-[10px_10px_0px_0px_theme(colors.border)] hover:-translate-y-2 transition-all duration-300`}
+      className={`bg-${feature_color} ${card_rotation} hover:shadow-[10px_10px_0px_0px_theme(colors.border)] hover:-translate-y-2 transition-all duration-300`}
     >
       <CardContent className="pt-6">
         <div className="text-5xl mb-4">{feature_icon}</div>

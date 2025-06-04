@@ -29,7 +29,7 @@ const CategoryCard = ({ category, index }: CategoryCardProps) => {
       <Card
         className={cn(
           `bg-${category.color}`,
-          "border-2 border-border shadow-shadow transition-all duration-300",
+          "transition-all duration-300",
           "group-hover:shadow-[10px_10px_0px_0px_theme(colors.border)] group-hover:-translate-y-2",
           getRotationClass()
         )}

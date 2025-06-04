@@ -11,9 +11,7 @@ const AboutMissionCard = ({
 }: AboutMissionCardProps) => {
   return (
     <div className="text-center">
-      <Card
-        className={`bg-background border-4 border-border shadow-[8px_8px_0px_0px_theme(colors.border)] ${card_rotation} inline-block max-w-4xl`}
-      >
+      <Card className={`bg-background ${card_rotation} inline-block max-w-4xl`}>
         <CardContent className="pt-8 md:pt-12">
           <CardHeader className="px-0">
             <CardTitle className="text-3xl md:text-4xl font-black text-foreground mb-6">

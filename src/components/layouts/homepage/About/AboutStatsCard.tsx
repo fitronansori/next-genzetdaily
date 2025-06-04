@@ -19,9 +19,7 @@ const AboutStatsCard = ({
   card_rotation = "-rotate-1",
 }: AboutStatsCardProps) => {
   return (
-    <Card
-      className={`bg-muted/30 border-2 border-border shadow-shadow ${card_rotation} mb-16`}
-    >
+    <Card className={`bg-muted/30 ${card_rotation} mb-16`}>
       <CardContent className="">
         <div className="text-center mb-8">
           <CardHeader className="px-0">

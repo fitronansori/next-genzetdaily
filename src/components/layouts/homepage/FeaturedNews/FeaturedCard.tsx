@@ -29,10 +29,8 @@ const FeaturedCard = ({
   return (
     <Card
       className={cn(
-        "pt-0 bg-background border-2 border-border overflow-hidden group hover:-translate-y-1 transition-all duration-300",
-        isMain
-          ? "shadow-shadow hover:shadow-[12px_12px]"
-          : "shadow-shadow hover:shadow-[8px_8px]",
+        "pt-0 bg-background overflow-hidden group hover:-translate-y-1 transition-all duration-300",
+        isMain ? "hover:shadow-[12px_12px]" : "hover:shadow-[8px_8px]",
         className
       )}
     >

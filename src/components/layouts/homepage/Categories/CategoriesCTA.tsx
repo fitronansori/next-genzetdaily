@@ -9,9 +9,7 @@ type CategoriesCTAProps = {
 const CategoriesCTA = ({ card_rotation = "rotate-1" }: CategoriesCTAProps) => {
   return (
     <div className="text-center mt-16">
-      <Card
-        className={`bg-background border-2 border-border shadow-shadow ${card_rotation} inline-block max-w-4xl`}
-      >
+      <Card className={`bg-background ${card_rotation} inline-block max-w-4xl`}>
         <CardContent className="pt-8 md:pt-12">
           <CardHeader className="px-0">
             <CardTitle className="text-2xl md:text-3xl font-black text-foreground mb-4">
