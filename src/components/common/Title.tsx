@@ -37,11 +37,7 @@ const Title = ({
           )}
         </h2>
       </div>
-      {subtitle && (
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          {subtitle}
-        </p>
-      )}
+      {subtitle && <p className="text-lg max-w-2xl mx-auto">{subtitle}</p>}
     </div>
   );
 };
