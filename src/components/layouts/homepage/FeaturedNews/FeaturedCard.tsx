@@ -83,12 +83,7 @@ const FeaturedCard = ({
             >
               {news.category}
             </span>
-            <span
-              className={cn(
-                "text-muted-foreground",
-                isMain ? "text-sm" : "text-xs"
-              )}
-            >
+            <span className={cn("", isMain ? "text-sm" : "text-xs")}>
               {news.read_time}
             </span>
           </div>
@@ -105,7 +100,7 @@ const FeaturedCard = ({
         {/* Excerpt */}
         <p
           className={cn(
-            "text-muted-foreground",
+            "",
             isMain ? "mb-6 leading-relaxed" : "text-sm line-clamp-2 mb-4"
           )}
         >
