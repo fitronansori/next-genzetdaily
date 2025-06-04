@@ -7,10 +7,9 @@ import ProfileDropwdown from "./ProfileDropwdown";
 
 const Header = () => {
   // TODO: Implement login state management
-  const login = true;
-
+  const login = false;
   return (
-    <header className="border-b border-border">
+    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="container h-16 flex items-center justify-between">
         <Logo />
 

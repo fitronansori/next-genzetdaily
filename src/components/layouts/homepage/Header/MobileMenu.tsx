@@ -15,7 +15,7 @@ const MobileMenu = () => {
     <Sheet>
       <SheetTrigger asChild>
         <Button variant={"neutral"} className="lg:hidden">
-          <AlignJustifyIcon className="size-5" />
+          <AlignJustifyIcon />
         </Button>
       </SheetTrigger>
 
