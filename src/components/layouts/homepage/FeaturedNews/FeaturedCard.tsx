@@ -56,9 +56,11 @@ const FeaturedCard = ({
         <Image
           src={news.image_url || "/images/placeholder.webp"}
           alt={news.title}
-          layout="fill"
-          objectFit="cover"
-          className={"transition-transform duration-300 group-hover:scale-105"}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className={
+            "object-cover transition-transform duration-300 group-hover:scale-105"
+          }
         />
       </div>
 
@@ -110,7 +112,7 @@ const FeaturedCard = ({
           variant={isMain ? "default" : "neutral"}
           asChild
         >
-          <Link href={"/"}>
+          <Link href={"/articles/1"}>
             {isMain ? "BACA SELENGKAPNYA, BESTIE" : "READ MORE, CUY!"}
           </Link>
         </Button>
