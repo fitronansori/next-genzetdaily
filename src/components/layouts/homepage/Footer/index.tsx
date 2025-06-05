@@ -14,7 +14,7 @@ const Footer = () => {
               className="font-medium underline underline-offset-4"
             >
               Next.js
-            </Link>{" "}
+            </Link>
             sama{" "}
             <Link
               href="https://ui.shadcn.com"
