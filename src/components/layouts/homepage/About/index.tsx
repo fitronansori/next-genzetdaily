@@ -6,7 +6,7 @@ import AboutMissionCard from "./AboutMissionCard";
 
 const About = () => {
   return (
-    <section className="py-10 lg:py-20 bg-background">
+    <section id="about" className="py-10 lg:py-20 bg-background">
       <div className="container">
         <Title
           main_text="KENAPA"
