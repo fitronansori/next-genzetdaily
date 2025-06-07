@@ -336,3 +336,155 @@ export const additional_articles = [
 
 // All articles combining trending and additional articles
 export const all_articles = [...trending_news, ...additional_articles];
+
+// Dashboard data constants
+export const dashboard_stats_data = {
+  total_articles: 24,
+  total_views: "12.5k",
+  comments: 89,
+  published: 18,
+};
+
+export const dashboard_activities_data = [
+  {
+    title: 'Artikel "Memulai dengan Next.js" diterbitkan',
+    time: "2 jam yang lalu",
+    chartColor: "chart-1" as const,
+  },
+  {
+    title: 'Komentar baru pada "Best Practices React"',
+    time: "4 jam yang lalu",
+    chartColor: "chart-2" as const,
+  },
+  {
+    title: 'Draft "Tips TypeScript" disimpan',
+    time: "1 hari yang lalu",
+    chartColor: "chart-3" as const,
+  },
+  {
+    title: "Pengaturan profil diperbarui",
+    time: "2 hari yang lalu",
+    chartColor: "chart-4" as const,
+  },
+];
+
+// Dashboard article data
+export const dashboard_articles_data = [
+  {
+    id: 1,
+    title: "iPhone 16 AI Features Bocor Total! Fitur-nya Mind-blowing Banget",
+    excerpt:
+      "Rumor terbaru iPhone 16 yang bakal revolutionize cara kita pake smartphone. AI assistant-nya katanya lebih smart dari Siri!",
+    category: "Tech",
+    author_name: "Admin GenZet",
+    author_avatar: "",
+    published_date: "2 jam lalu",
+    status: "published" as const,
+    views: "2.1K",
+    read_time: "5 min read",
+  },
+  {
+    id: 2,
+    title: "Drama TikTok vs Instagram Reels Makin Seru! Siapa yang Menang?",
+    excerpt:
+      "Battle of the platforms! Gen Z udah pilih mana yang jadi favorit. Plot twist: hasilnya unexpected banget!",
+    category: "Social Media",
+    author_name: "Sarah Content",
+    author_avatar: "",
+    published_date: "4 jam lalu",
+    status: "published" as const,
+    views: "1.8K",
+    read_time: "4 min read",
+  },
+  {
+    id: 3,
+    title: "ChatGPT 5 Leak! Katanya Bisa Video Call dan Lebih Human-like",
+    excerpt:
+      "OpenAI diam-diam develop ChatGPT 5 yang bakal game-changer. Fitur baru yang bocor bikin kita speechless!",
+    category: "AI & Tech",
+    author_name: "Tech Writer",
+    author_avatar: "",
+    published_date: "6 jam lalu",
+    status: "draft" as const,
+    views: "890",
+    read_time: "6 min read",
+  },
+  {
+    id: 4,
+    title: "Gen Z Mulai Tinggalkan Instagram? Survey Terbaru Bikin Shock",
+    excerpt:
+      "Platform mana yang sekarang jadi favorit Gen Z? Hasil riset ini bikin Mark Zuckerberg pusing, literally!",
+    category: "Social Media",
+    author_name: "Research Team",
+    author_avatar: "",
+    published_date: "8 jam lalu",
+    status: "published" as const,
+    views: "1.3K",
+    read_time: "3 min read",
+  },
+  {
+    id: 5,
+    title: "Taylor Swift Concert Jakarta Confirmed! Ticketing Info Inside",
+    excerpt:
+      "Swifties Indonesia merapat! Akhirnya T-Swift confirm tour ke Jakarta. Ini semua detail yang kamu butuh tahu!",
+    category: "Entertainment",
+    author_name: "Entertainment Desk",
+    author_avatar: "",
+    published_date: "10 jam lalu",
+    status: "draft" as const,
+    views: "567",
+    read_time: "4 min read",
+  },
+];
+
+// Dashboard comment data
+export const dashboard_comments_data = [
+  {
+    id: 1,
+    author_name: "Sarah Gen Z",
+    author_avatar: "",
+    content:
+      "Artikel ini keren banget sih! Emang bener Gen Z banget bahasanya 🔥",
+    article_title: "iPhone 16 AI Features Bocor Total!",
+    created_date: "2 jam lalu",
+    status: "approved" as const,
+  },
+  {
+    id: 2,
+    author_name: "Rafi Millennial",
+    author_avatar: "",
+    content:
+      "Finally ada media yang ngerti cara ngomong ke Gen Z. Keep it up! 💯",
+    article_title: "Drama TikTok vs Instagram Reels",
+    created_date: "5 jam lalu",
+    status: "pending" as const,
+  },
+  {
+    id: 3,
+    author_name: "Maya Aesthetic",
+    author_avatar: "",
+    content:
+      "Informasinya up to date banget. Gak kayak media mainstream yang boring 😴",
+    article_title: "ChatGPT 5 Leak! Katanya Bisa Video Call",
+    created_date: "1 hari lalu",
+    status: "approved" as const,
+  },
+  {
+    id: 4,
+    author_name: "Doni Tech",
+    author_avatar: "",
+    content: "Penjelasan tech-nya mudah dipahami. Good job team GenZet! 👏",
+    article_title: "Gen Z Mulai Tinggalkan Instagram?",
+    created_date: "2 hari lalu",
+    status: "approved" as const,
+  },
+  {
+    id: 5,
+    author_name: "Anonymous User",
+    author_avatar: "",
+    content: "Kapan nih bahas crypto lagi? Market lagi bullish banget 🚀",
+    article_title: "Taylor Swift Concert Jakarta Confirmed!",
+    created_date: "3 hari lalu",
+    status: "pending" as const,
+  },
+];
